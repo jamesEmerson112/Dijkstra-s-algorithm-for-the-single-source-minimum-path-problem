@@ -1,0 +1,8 @@
+1. array: hold vertices
+	a. each element must store its id (,
+	b. its DISTANCE to the source vertex
+	c. its BACK POINTER
+2. array: outneighbor lists
+	a. linkedlist: node i, int the_name_of_the_neighbor and the_weight_of_the_arc
+3. min-queue: vertices which are partially processed
+	a. "contain exactly the souce vertex"
